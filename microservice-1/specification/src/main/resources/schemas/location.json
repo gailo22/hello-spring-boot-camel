@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "coordinates": {
+      "$ref": "coordinates.json"
+    },
+    "address": {
+      "$ref": "address.json"
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "coordinates",
+    "address",
+    "id",
+    "name",
+    "type"
+  ]
+}

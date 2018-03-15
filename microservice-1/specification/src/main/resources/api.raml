@@ -1,0 +1,18 @@
+#%RAML 1.0
+---
+title: Locations
+version: v1
+baseUri: "{version}"
+mediaType:  application/json
+protocols: [ HTTP, HTTPS ]
+#===============================================================
+# API resource definitions
+#===============================================================
+/locations:
+  displayName: Locations
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            type: !include schemas/locations-get-response.json

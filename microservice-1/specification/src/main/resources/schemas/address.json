@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "nameOrNumber": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "town": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nameOrNumber",
+    "street",
+    "town",
+    "country",
+    "postcode"
+  ]
+}
